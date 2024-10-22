@@ -1,14 +1,4 @@
-'use client';
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-  ReactNode,
-  FC,
-  SetStateAction,
-  Dispatch,
-} from 'react';
+import { createContext, useEffect, useState, ReactNode, FC, SetStateAction, Dispatch } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 

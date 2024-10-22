@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import SmsTableHead from './SmsTableHead';
 import SmsTableBody from './SmsTableBody';
 import { SmsContext } from '@/context/SmsContext';
@@ -24,7 +24,6 @@ const SmsTable = () => {
     searchFecth,
     activeSort,
     dateValue,
-    timeDate,
   } = smsContext;
 
   const getMessages = () => {

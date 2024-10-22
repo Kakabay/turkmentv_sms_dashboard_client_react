@@ -6,7 +6,7 @@ const SignUpPage = () => {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
   const authContext = useContext(AuthContext);
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
   if (!authContext) {
     throw new Error('AuthContext must be used within an AuthProvider');
@@ -39,7 +39,7 @@ const SignUpPage = () => {
             <input
               id="login"
               type="text"
-              className="px-[16px] py-[12px]  rounded-[12px] outline-none text-lightOnSurfaceVariant text-textSmall leading-textSmall"
+              className="px-[16px] py-[12px] bg-lightPrimaryContainer rounded-[12px] outline-none text-lightOnSurfaceVariant text-textSmall leading-textSmall"
               value={login}
               onChange={(e) => setLogin(e.target.value)}
               placeholder="Login giriziň"

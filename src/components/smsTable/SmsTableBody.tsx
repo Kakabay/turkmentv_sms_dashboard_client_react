@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import SmsTableRow from './SmsTableRow';
 
 import { SmsContext } from '@/context/SmsContext';

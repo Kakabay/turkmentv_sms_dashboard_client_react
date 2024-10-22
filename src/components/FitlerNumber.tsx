@@ -9,8 +9,7 @@ export const FitlerNumber = () => {
   if (!smsContext) {
     throw new Error('smsContext must be used within an AuthProvider');
   }
-  const { activeNumber, setActiveNumber, smsData, tableIsLoading, setSmsData, setIsError } =
-    smsContext;
+  const { activeNumber, setActiveNumber, smsData, setSmsData, setIsError } = smsContext;
 
   const getAdmins = () => {
     try {

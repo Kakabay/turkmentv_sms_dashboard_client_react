@@ -87,7 +87,7 @@
 import Loader from '@/components/Loader';
 import { SmsContext } from '@/context/SmsContext';
 import clsx from 'clsx';
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 
 const SmsPagination = () => {
   const smsContext = useContext(SmsContext);
