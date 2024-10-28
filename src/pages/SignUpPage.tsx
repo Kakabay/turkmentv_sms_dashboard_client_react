@@ -39,7 +39,7 @@ const SignUpPage = () => {
             <input
               id="login"
               type="text"
-              className="px-[16px] py-[12px] bg-lightPrimaryContainer rounded-[12px] outline-none text-lightOnSurfaceVariant text-textSmall leading-textSmall"
+              className="px-[16px] py-[12px] bg-lightPrimaryContainer focus:bg-lightPrimaryContainer focus-within:bg-lightPrimaryContainer rounded-[12px] outline-none text-lightOnSurfaceVariant text-textSmall leading-textSmall"
               value={login}
               onChange={(e) => setLogin(e.target.value)}
               placeholder="Login giriziň"
@@ -52,7 +52,7 @@ const SignUpPage = () => {
             <input
               id="password"
               type="password"
-              className="px-[16px] py-[12px] bg-lightPrimaryContainer rounded-[12px] outline-none text-lightOnSurfaceVariant text-textSmall leading-textSmall"
+              className="px-[16px] py-[12px] bg-lightPrimaryContainer focus:bg-lightPrimaryContainer focus-within:bg-lightPrimaryContainer rounded-[12px] outline-none text-lightOnSurfaceVariant text-textSmall leading-textSmall"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Açar sözi giriziň"
